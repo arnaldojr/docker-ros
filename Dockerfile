@@ -1,6 +1,6 @@
 # Kudos to DOROWU for his amazing VNC 16.04 KDE image
 FROM dorowu/ubuntu-desktop-lxde-vnc
-LABEL maintainer "bpinaya@wpi.edu"
+LABEL maintainer Arnaldo Viana
 
 # Adding keys for ROS
 RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
